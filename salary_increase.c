@@ -17,12 +17,12 @@ int main(){
 		salary = salary + (salary * 0.10);
 		per = 10;
 	} else if (1200.00 < salary && salary <= 2000.00){
-		increase = salary * 0.7;
-		salary = salary + (salary * 0.7);
+		increase = salary * 0.07;
+		salary = salary + (salary * 0.07);
 		per = 7;
 	} else {
-		increase = salary * 0.4;
-		salary = salary + (salary * 0.4);
+		increase = salary * 0.04;
+		salary = salary + (salary * 0.04);
 		per = 4;
 	}
 	printf("Novo salario: %.2lf\n", salary);
